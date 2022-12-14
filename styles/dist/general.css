@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+html {
+  font-size: 80%;
+}
+
+header {
+  width: 100%;
+  background-color: transparent;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+header nav ul li {
+  margin-right: 10px;
+  padding: 5px;
+  background-color: #323232;
+  color: white;
+}
