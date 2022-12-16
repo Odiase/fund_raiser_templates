@@ -14,3 +14,45 @@
   width: 90%;
   margin: auto;
 }
+
+@media (min-width: 968px) {
+  .hero {
+    height: calc(60vh + 80px);
+  }
+}
+.get_started {
+  width: 90%;
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+}
+.get_started h2 {
+  margin-bottom: 20px;
+}
+.get_started .steps {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.get_started .steps .step {
+  margin: auto;
+  margin-bottom: 30px;
+  width: 60%;
+  background-color: white;
+  color: black;
+}
+.get_started .steps .step .step_number {
+  margin: auto;
+  border-bottom: 1px solid rgba(200, 200, 200, 0.8);
+  padding: 10px;
+  width: 90%;
+  margin-bottom: 10px;
+}
+.get_started .steps .step .action {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

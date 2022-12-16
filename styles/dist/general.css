@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: helvetica;
+  font-family: "Cormorant Infant", serif;
 }
 
 a {
@@ -20,7 +21,7 @@ li {
 }
 
 html {
-  font-size: 90%;
+  font-size: 100%;
 }
 
 header {
@@ -39,6 +40,9 @@ header {
 header h1 a {
   color: white;
 }
+header h1 span {
+  color: #06cc06;
+}
 header nav ul {
   display: flex;
   align-items: center;
@@ -55,6 +59,9 @@ header nav ul li {
 header nav ul li:hover {
   cursor: pointer;
   padding-left: 15px;
+}
+header nav ul li span {
+  color: #06cc06;
 }
 header nav ul li a {
   color: white;
