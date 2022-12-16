@@ -1,0 +1,38 @@
+.crowd_fundings {
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 130px;
+  padding: 15px;
+}
+.crowd_fundings .inner_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  flex-direction: column;
+}
+.crowd_fundings .inner_wrapper .crowd_funding {
+  width: 100%;
+  padding: 20px;
+  background-color: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: white;
+}
+.crowd_fundings .inner_wrapper .crowd_funding:hover {
+  background-color: #282828;
+}
+.crowd_fundings .inner_wrapper .crowd_funding info {
+  flex-basis: 80%;
+}
+.crowd_fundings .inner_wrapper .crowd_funding .amount {
+  text-align: center;
+  flex-basis: 10%;
+  margin-left: 8px;
+}
