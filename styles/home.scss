@@ -80,3 +80,14 @@ $light_green : rgb(10, 169, 10);
         }
     }
 }
+
+@media (min-width: 800px){
+    .get_started .steps{
+        flex-direction: row;
+
+        .step{
+            flex-basis: 31%;
+            margin-top: 20px;
+        }
+    }
+}

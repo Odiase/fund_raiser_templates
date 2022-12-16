@@ -63,3 +63,13 @@
   font-size: 2rem;
   color: #017f01;
 }
+
+@media (min-width: 800px) {
+  .get_started .steps {
+    flex-direction: row;
+  }
+  .get_started .steps .step {
+    flex-basis: 31%;
+    margin-top: 20px;
+  }
+}
