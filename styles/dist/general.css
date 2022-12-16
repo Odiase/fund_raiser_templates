@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
+  font-family: helvetica;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
@@ -15,16 +20,24 @@ li {
 }
 
 html {
-  font-size: 80%;
+  font-size: 90%;
 }
 
 header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   background-color: transparent;
-  padding: 15px;
+  padding: 25px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 1px 1px 5px black;
+}
+header h1 a {
+  color: white;
 }
 header nav ul {
   display: flex;
@@ -32,7 +45,17 @@ header nav ul {
 }
 header nav ul li {
   margin-right: 10px;
-  padding: 5px;
-  background-color: #323232;
+  padding: 8px;
+  background-color: #0a0a0a;
+  color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+header nav ul li:hover {
+  cursor: pointer;
+  padding-left: 15px;
+}
+header nav ul li a {
   color: white;
 }
