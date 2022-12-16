@@ -48,3 +48,11 @@
 .auth_form_container form button:hover {
   background-color: #0aa90a;
 }
+.auth_form_container form p {
+  text-align: center;
+}
+.auth_form_container form p a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bolder;
+}
