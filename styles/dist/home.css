@@ -40,8 +40,13 @@
   margin: auto;
   margin-bottom: 30px;
   width: 60%;
-  background-color: white;
-  color: black;
+  background-color: #1e1e1e;
+  color: white;
+  transition: 0.3s;
+}
+.get_started .steps .step:hover {
+  background-color: #323232;
+  transform: rotate(5deg);
 }
 .get_started .steps .step .step_number {
   margin: auto;
@@ -61,7 +66,7 @@
   display: block;
   margin-bottom: 20px;
   font-size: 2rem;
-  color: #017f01;
+  color: #0aa90a;
 }
 
 @media (min-width: 800px) {
