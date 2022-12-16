@@ -68,7 +68,14 @@ $light_green : rgb(10, 169, 10);
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                
+                flex-direction: column;
+
+                span{
+                    display: block;
+                    margin-bottom: 20px;
+                    font-size: 2rem;
+                    color: $standard_green;
+                }
             }
         }
     }
