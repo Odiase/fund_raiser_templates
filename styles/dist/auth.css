@@ -1,6 +1,50 @@
 .auth_form_container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 70px;
+}
+.auth_form_container form {
+  width: 80%;
+  max-width: 800px;
+  background-color: #141414;
+  padding: 30px 20px;
+}
+.auth_form_container form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+.auth_form_container form div {
+  margin-bottom: 35px;
+}
+.auth_form_container form div input {
+  padding: 10px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #c8c8c8;
+  color: white;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+.auth_form_container form div input:focus {
+  border-bottom: 1px solid #0aa90a;
+}
+.auth_form_container form button {
+  display: block;
+  padding: 15px;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  cursor: pointer;
+  background-color: #017f01;
+  border: none;
+  color: white;
+  transition: 0.3s;
+}
+.auth_form_container form button:hover {
+  background-color: #0aa90a;
 }
