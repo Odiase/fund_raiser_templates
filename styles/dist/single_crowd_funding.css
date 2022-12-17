@@ -26,6 +26,9 @@
   overflow: hidden;
   transition: 0.3s;
 }
+.other_crowd_fundings .crowd_fundings a {
+  color: white;
+}
 .other_crowd_fundings .crowd_fundings .funding {
   margin-bottom: 5px;
   background-color: #141414;
