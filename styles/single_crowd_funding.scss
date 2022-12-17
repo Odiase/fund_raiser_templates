@@ -17,6 +17,12 @@ $light_green : rgb(10, 169, 10);
         padding: 5px;
         border: none;
         cursor: pointer;
+        font-weight: bold;
+        transition: .3s;
+
+        &:hover{
+            background-color: rgb(220,220,220);
+        }
     }
 
     .hide_other_fundings{
@@ -24,7 +30,53 @@ $light_green : rgb(10, 169, 10);
     }
 
     .crowd_fundings{
-        width: 90%;
+        width: 80%;
         margin: auto;
+        margin-top: 20px;
+        height: 0;
+        overflow: hidden;
+        transition: .3s;
+
+        .funding{
+            margin-bottom: 5px;
+            background-color: rgb(20,20,20);
+            padding: 10px 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+
+
+// single_crowd_section styling
+.single_crowd_section{
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+
+    .crowd_fund_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .more_info{
+        margin-top: 60px;
+
+        div{
+            margin-bottom: 20px;
+
+            p{
+                &:nth-child(2){
+                    font-weight: bold;
+                    margin-top: 5px;
+                }
+            }
+        }
+
+        .description{
+            margin-top: 30px;
+        }
     }
 }
