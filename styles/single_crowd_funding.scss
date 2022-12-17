@@ -61,6 +61,18 @@ $light_green : rgb(10, 169, 10);
         align-items: center;
     }
 
+    .crowd_fund_image{
+        margin-top: 20px;
+        width: 100%;
+        max-height: 500px;
+        overflow: hidden;
+        img{
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
     .more_info{
         margin-top: 60px;
 
