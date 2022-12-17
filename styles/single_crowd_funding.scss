@@ -1,7 +1,30 @@
+// colors
+$standard_green : rgb(1, 127, 1);
+$light_green : rgb(10, 169, 10);
+
+
+
 // mobile_styling
-
 .other_crowd_fundings{
-    margin-top: 90px;
+    margin-top: 100px;
 
-    
+
+    .btn{
+        display: block;
+        width: 80%;
+        max-width: 500px;
+        margin: auto;
+        padding: 5px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .hide_other_fundings{
+        display: none;
+    }
+
+    .crowd_fundings{
+        width: 90%;
+        margin: auto;
+    }
 }
